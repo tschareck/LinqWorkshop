@@ -1,0 +1,9 @@
+c:\repos\LinqWorkshop\LinqWorkshop.Model\bin\Debug\LinqWorkshop.Model.dll.config
+c:\repos\LinqWorkshop\LinqWorkshop.Model\bin\Debug\LinqWorkshop.Model.dll
+c:\repos\LinqWorkshop\LinqWorkshop.Model\bin\Debug\LinqWorkshop.Model.pdb
+c:\repos\LinqWorkshop\LinqWorkshop.Model\bin\Debug\EntityFramework.dll
+c:\repos\LinqWorkshop\LinqWorkshop.Model\bin\Debug\EntityFramework.xml
+c:\repos\LinqWorkshop\LinqWorkshop.Model\obj\Debug\LinqWorkshop.Model.csprojResolveAssemblyReference.cache
+c:\repos\LinqWorkshop\LinqWorkshop.Model\obj\Debug\LinqWorkshop.Model.csproj.CoreCompileInputs.cache
+c:\repos\LinqWorkshop\LinqWorkshop.Model\obj\Debug\LinqWorkshop.Model.dll
+c:\repos\LinqWorkshop\LinqWorkshop.Model\obj\Debug\LinqWorkshop.Model.pdb
