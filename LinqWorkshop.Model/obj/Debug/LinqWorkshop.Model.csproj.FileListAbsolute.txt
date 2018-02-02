@@ -7,3 +7,12 @@ c:\repos\LinqWorkshop\LinqWorkshop.Model\obj\Debug\LinqWorkshop.Model.csprojReso
 c:\repos\LinqWorkshop\LinqWorkshop.Model\obj\Debug\LinqWorkshop.Model.csproj.CoreCompileInputs.cache
 c:\repos\LinqWorkshop\LinqWorkshop.Model\obj\Debug\LinqWorkshop.Model.dll
 c:\repos\LinqWorkshop\LinqWorkshop.Model\obj\Debug\LinqWorkshop.Model.pdb
+C:\Repos\LinqWorkshop-materializacja\LinqWorkshop.Model\bin\Debug\LinqWorkshop.Model.dll.config
+C:\Repos\LinqWorkshop-materializacja\LinqWorkshop.Model\bin\Debug\LinqWorkshop.Model.dll
+C:\Repos\LinqWorkshop-materializacja\LinqWorkshop.Model\bin\Debug\LinqWorkshop.Model.pdb
+C:\Repos\LinqWorkshop-materializacja\LinqWorkshop.Model\bin\Debug\EntityFramework.dll
+C:\Repos\LinqWorkshop-materializacja\LinqWorkshop.Model\bin\Debug\EntityFramework.xml
+C:\Repos\LinqWorkshop-materializacja\LinqWorkshop.Model\obj\Debug\LinqWorkshop.Model.csprojResolveAssemblyReference.cache
+C:\Repos\LinqWorkshop-materializacja\LinqWorkshop.Model\obj\Debug\LinqWorkshop.Model.csproj.CoreCompileInputs.cache
+C:\Repos\LinqWorkshop-materializacja\LinqWorkshop.Model\obj\Debug\LinqWorkshop.Model.dll
+C:\Repos\LinqWorkshop-materializacja\LinqWorkshop.Model\obj\Debug\LinqWorkshop.Model.pdb

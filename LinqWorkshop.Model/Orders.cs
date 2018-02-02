@@ -14,10 +14,10 @@ namespace LinqWorkshop.Model
     
     public partial class Orders
     {
-        public virtual Customers Customers { get; set; }
-        public virtual Employees Employees { get; set; }
-        public virtual ICollection<Order_Details> Order_Details { get; set; }
-        public virtual Shippers Shippers { get; set; }
+        public  Customers Customers { get; set; }
+        public  Employees Employees { get; set; }
+        public  ICollection<Order_Details> Order_Details { get; set; }
+        public  Shippers Shippers { get; set; }
 
         public Orders()
         {

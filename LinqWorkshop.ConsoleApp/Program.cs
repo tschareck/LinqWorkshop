@@ -10,11 +10,11 @@ namespace LinqWorkshop.ConsoleApp
     {
         static void Main(string[] args)
         {
-            //LazyLoading.LazyLoadItems();
+            LazyLoading.LazyLoadItems();
 
-            //LazyLoading.EagerLoadWithInclude();
+            LazyLoading.EagerLoadWithInclude();
 
-            //LazyLoading.EagerLoadingWithLoad();
+            LazyLoading.EagerLoadingWithLoad();
         }
     }
 }

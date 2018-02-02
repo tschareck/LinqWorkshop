@@ -1,6 +1,7 @@
 ﻿using LinqWorkshop.Model;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,7 +10,7 @@ namespace LinqWorkshop.ConsoleApp
 {
     static class LazyLoading
     {
-        static public void LazyLoadItems()
+        public static void LazyLoadItems()
         {
             using (var dbContext = new NORTHWNDEntities())
             {
@@ -18,7 +19,8 @@ namespace LinqWorkshop.ConsoleApp
                 // order was materialized
                 Console.WriteLine($"{order.ShipName}, {order.ShipAddress}, {order.ShipCity}");
                 Console.WriteLine(order.CustomerID);
-
+                         
+                dbContext.Entry(order).Reference(p=>p.Customers).Load();
                 var customer = order.Customers;
                 Console.WriteLine(order.Customers.CompanyName);
 
@@ -30,18 +32,20 @@ namespace LinqWorkshop.ConsoleApp
             }
         }
 
-        static public void EagerLoadWithInclude()
+        public static void EagerLoadWithInclude()
         {
             using (var dbContext = new NORTHWNDEntities())
             {
                 var query = dbContext.Orders.Include("Customers").Where(p => p.OrderID == 10285);
+                var result = query.ToList();
+                dbContext.Orders.Include(p => p.Customers);
 
                 // materializing order with dependent property
                 var order = query.First();
             }
         }
 
-        static public void EagerLoadingWithLoad()
+        public static void EagerLoadingWithLoad()
         {
             using (var dbContext = new NORTHWNDEntities())
             {
